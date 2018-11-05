@@ -1,0 +1,50 @@
+Good Morning!!
+A regular customer has requested a provisional version for one of his latest projects: a bookstore.
+At the moment it does not need to be an actual store but later on it will be.
+We just need to show the books on screen, preferably with a search bar.
+These are the requested requirements:
+- The technologies used will be: HTML, CSS, JavaScript.
+- He has explicitly requested that the libraries of Bootstrap, FancyBox (or maybe something like that) must be used (below I leave the links). If you have not worked with them, take a look. Of course you can use CSS Flexbox, CCS Grid if you want.
+- The project must be finished today because tomorrow he will ask me to show it to him.
+- The books data are hosted on a remote JSON. You must access without downloading it since the client can modify the content without modifying the structure and the project should work without touching anything on the web page.
+- Must include a search engine to search for any field in the book. Whether it be title, description or any other.
+- The logo (look for one in the web) should be on the top left and the search field on the top right.
+- When doing HOVER on each of the covers, it must be rotated to show the title, the description and a "More Info" button (This effect is just CSS. Google is your friend). This button will take you to a more detailed image ("detalle" in the json) of the cover (not the same image) that should be shown in a popup/modal and NOT in another website (FancyBox).
+- (Optional) Books should be displayed with a little responsive behaviour. No need to fight with media queries, only a little adaptation with Bootstrap or plain flexbox would be enough.
+RESOURCES:
+- Here are the links for the libraries:
+FancyBox - http://fancyapps.com/fancybox/3/ (probably is outdated try something similar)
+- And here is the JSON: https://api.myjson.com/bins/zyv02
+Keep an eye on the books, look good ...
+DON'T FORGET to send the task COMPLETED through Slack (first GitHub push than Netlify -> links please)
+I'll be out today, so I can not help you at all. I hope when I get back everything is ready.
+He's a great customer and I trust you. Don't disappoint me. GOOD LUCK!
+P.D - The customer just sent me a video with a possible solution. You decide if you want to make it look like this.
+https://drive.google.com/file/d/0B7MuB9FR6W82MF9rVFI4QTlvVmc/view
+
+
+¡¡Buenos días!!
+Un cliente habitual ha solicitado una versión provisional para uno de sus últimos proyectos: una librería.
+Por el momento no es necesario que sea una tienda real, pero más adelante lo será.
+Solo tenemos que mostrar los libros en pantalla, preferiblemente con una barra de búsqueda.
+Estos son los requisitos solicitados:
+- Las tecnologías utilizadas serán: HTML, CSS, JavaScript.
+- Ha solicitado explícitamente que se utilicen las bibliotecas de Bootstrap, FancyBox (o quizás algo así) (debajo dejo los enlaces). Si no has trabajado con ellos, echa un vistazo. Por supuesto que puedes usar CSS Flexbox, CCS Grid si quieres.
+- El proyecto debe terminarse hoy porque mañana me pedirá que se lo muestre.
+- Los datos de los libros están alojados en un JSON remoto. Debe acceder sin descargarlo, ya que el cliente puede modificar el contenido sin modificar la estructura y el proyecto debería funcionar sin tocar nada en la página web.
+
+
+- Debe incluir un motor de búsqueda para buscar cualquier campo en el libro. Ya sea título, descripción o cualquier otro.
+- El logotipo (busque uno en la web) debe estar en la parte superior izquierda y el campo de búsqueda en la parte superior derecha.
+- Al hacer HOVER en cada una de las portadas, debe girarse para mostrar el título, la descripción y el botón "Más información" (Este efecto es solo CSS. Google es su amigo). Este botón lo llevará a una imagen más detallada ("detalle" en el json) de la portada (no es la misma imagen) que se debe mostrar en una ventana emergente / modal y NO en otro sitio web (FancyBox).
+- (Opcional) Los libros deben mostrarse con un poco de comportamiento receptivo. No es necesario luchar con las consultas de los medios, solo una pequeña adaptación con Bootstrap o flexbox simple sería suficiente.
+RECURSOS:
+- Aquí están los enlaces de las bibliotecas:
+FancyBox - http://fancyapps.com/fancybox/3/ (probablemente esté desactualizado, intente algo similar)
+- Y aquí está el JSON: https://api.myjson.com/bins/zyv02
+Vigila los libros, luce bien ...
+NO TE OLVIDES de enviar la tarea COMPLETADA a través de Slack (primer impulso de GitHub que Netlify -> enlaces, por favor)
+Saldré hoy, así que no puedo ayudarte en absoluto. Espero que cuando regrese todo esté listo.
+Es un gran cliente y confío en ti. No me decepciones ¡BUENA SUERTE!
+P.D: el cliente acaba de enviarme un video con una posible solución. Tú decides si quieres que se vea así.
+https://drive.google.com/file/d/0B7MuB9FR6W82MF9rVFI4QTlvVmc/view
