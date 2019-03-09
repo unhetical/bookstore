@@ -75,34 +75,36 @@
 
 
         <!-----------------TEXT CONTENT---------------->
+        <div class="container">
+            <section>
 
-        <section>
+                <h2>Lista de Libros</h2>
 
-            <h2>Lista de Libros</h2>
+                <h3 v-show="notFound">Not Found</h3>
 
-            <h3 v-show="notFound">Not Found</h3>
+            </section>
 
-        </section>
+            <div id="child" class="cards">
+                <div class="flip-card" v-for="value in filter">
 
-        <div id="child" class="cards">
-            <div class="flip-card" v-for="value in filter">
+                    <div class="flip-card-inner">
 
-                <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="image" v-bind:src="value.cover">
+                        </div>
 
-                    <div class="flip-card-front">
-                        <img class="image" v-bind:src="value.cover">
-                    </div>
+                        <div class="flip-card-back">
+                            <h4 class="text-inline">{{value.title}}</h4>
+                            <p>{{value.description}}</p>
+                            <p>{{value.language}}</p>
 
-                    <div class="flip-card-back">
-                        <h4 class="text-inline">{{value.title}}</h4>
-                        <p>{{value.description}}</p>
-                        <p>{{value.language}}</p>
+                            <p class="imglist" style="max-width: 1000px;">
+                                <a v-bind:href="value.detail" data-fancybox="images-preview" data-thumbs='{"autoStart":true}'
+                                    v-bind:data-thumb="value.detail">
+                                    <button type="button" class="btn btn-primary btn-lg btn-block">See image</button>
+                                </a>
 
-                        <p class="imglist" style="max-width: 1000px;">
-                            <a v-bind:href="value.detail" data-fancybox="images-preview" data-thumbs='{"autoStart":true}' v-bind:data-thumb="value.detail">
-                                <button type="button" class="btn btn-primary btn-lg btn-block">See image</button>
-                            </a>
-
+                        </div>
                     </div>
                 </div>
             </div>
